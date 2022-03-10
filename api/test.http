@@ -1,0 +1,25 @@
+### CREATE todo
+POST http://localhost:3001/api/todo 
+content-type: application/json
+
+{
+ "name": "To do",
+ "description": "create frontend combine refresh test3",
+ "status": false
+   
+}
+### View todo
+GET http://localhost:3001/api/todo
+
+### delete todo
+DELETE http://localhost:3001/api/todo/62299d9626af652a357266d3
+
+###update todo
+PUT http://localhost:3001/api/todo/622990277be3ef8eb392af29
+content-type: application/json
+
+{
+ 
+ "status": false
+   
+}
