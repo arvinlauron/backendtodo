@@ -10,8 +10,9 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     color: #fff;
-    background: #333;
-}
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,26,1) 35%, rgba(0,212,255,1) 100%);
+} 
 
 .App {
     max-width: 728px;
@@ -27,13 +28,14 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: #444;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,26,1) 35%, rgba(0,212,255,1) 100%);
     padding: 0.5rem 1rem;
     border-bottom: 1px solid #333333;
 }
 
 .Card--text h1 {
-    color: #ff9900;
+    color: #d34a8a
 }
 
 .Card--button button {
@@ -49,8 +51,8 @@ body {
 }
 
 .Card--button__done {
-    border: 1px solid #00aa69;
-    color: #00aa69;
+    border: 1px solid #4238ce;
+    color:#4238ce;
     margin-right: 1rem;
 }
 
@@ -59,7 +61,8 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 1rem;
-    background: #444;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,26,1) 35%, rgba(0,212,255,1) 100%);
     margin-bottom: 1rem;
 }
 
@@ -72,7 +75,7 @@ body {
 .Form input {
     background: #f5f6f7;
     padding: 0.5rem 1rem;
-    border: 1px solid #ff9900;
+    border: 1px solid d34a8a;
     border-radius: 10px;
     display: block;
     margin: 0.3rem 1rem 0 0;
@@ -80,7 +83,7 @@ body {
 
 
 .Form button {
-    background: #ff9900;
+    background: #4238ce;
     color: #fff;
     padding: 0.5rem 1rem;
     border-radius: 20px;
