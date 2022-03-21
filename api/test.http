@@ -1,5 +1,5 @@
 ### CREATE todo
-POST http://localhost:3001/api/todo 
+POST https://todolauron.herokuapp.com/api/todo 
 content-type: application/json
 
 {
@@ -9,7 +9,7 @@ content-type: application/json
    
 }
 ### View todo
-GET http://localhost:3001/api/todo
+GET https://todolauron.herokuapp.com/api/todo
 
 ### delete todo
 DELETE http://localhost:3001/api/todo/62299d9626af652a357266d3

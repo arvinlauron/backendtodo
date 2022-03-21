@@ -10,14 +10,14 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(
   cors({
-    origin: "http://localhost:3000",
+    origin: "https://arcane-mountain-29379.herokuapp.com/",
     credentials: true,
   })
 );
 
 app.use("/api/todo", todoRoutes)
 
-const port = 3001 || process.env.PORT;
+const port = process.env.PORT || 3001;
 
 app.listen(port, () => {
   console.log(`Listening on port: ${port}`);

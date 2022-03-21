@@ -1,6 +1,6 @@
 import axios, { AxiosResponse } from "axios"
 
-const baseUrl: string = "http://localhost:3001/api"
+const baseUrl: string = "https://todolauron.herokuapp.com/api"
 
 export const getTodos = async (): Promise<AxiosResponse<ApiDataType>> => {
   try {
